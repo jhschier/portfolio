@@ -32,12 +32,12 @@ const ExperienceList = () => {
           <div className="w-1/3 ">
             {/* JOB TITLE */}
             <div className="rounded-b-lg rounded-s-lg bg-white p-3 font-semibold">
-              Senior JavaScript Engineer
+              FullStack Developer
             </div>
             {/* JOB DESC */}
             <div className="p-3 text-sm italic">
-              I led web development, offering expertise in JavaScript
-              frameworks.{" "}
+              Creating landing pages and microservices to clients based on their
+              needs.{" "}
             </div>
             {/* JOB DATE */}
             <div className="p-3 text-sm font-semibold text-red-400">
@@ -45,7 +45,7 @@ const ExperienceList = () => {
             </div>
             {/* JOB COMPANY */}
             <div className="w-fit rounded bg-white p-1 text-sm font-semibold">
-              Apple
+              NossaCrio
             </div>
           </div>
           {/* CENTER */}
@@ -75,20 +75,21 @@ const ExperienceList = () => {
           <div className="w-1/3 ">
             {/* JOB TITLE */}
             <div className="rounded-b-lg rounded-s-lg bg-white p-3 font-semibold">
-              Senior React Developer
+              Angular Developer
             </div>
             {/* JOB DESC */}
             <div className="p-3 text-sm italic">
-              I spearheaded React-based application development, leveraging
-              advanced skills.{" "}
+              Addressed issues in a project involving resolving constructor
+              implementation errors and ensuring proper communication between
+              components and services.
             </div>
             {/* JOB DATE */}
             <div className="p-3 text-sm font-semibold text-red-400">
-              2019 - 2024{" "}
+              2024 - 2024{" "}
             </div>
             {/* JOB COMPANY */}
             <div className="w-fit rounded bg-white p-1 text-sm font-semibold">
-              Microsoft
+              Quay Solutions
             </div>
           </div>
         </div>
@@ -98,16 +99,20 @@ const ExperienceList = () => {
           <div className="w-1/3 ">
             {/* JOB TITLE */}
             <div className="rounded-b-lg rounded-s-lg bg-white p-3 font-semibold">
-              Freelancer{" "}
+              FullStack Developer
             </div>
             {/* JOB DESC */}
             <div className="p-3 text-sm italic">
-              I provided web solutions, applying a range of technologies to
-              address client requirements.{" "}
+              Responsible for creating web apps and services, using JS, TS,
+              Node.js, React, Angular and other tools.
             </div>
             {/* JOB DATE */}
             <div className="p-3 text-sm font-semibold text-red-400">
-              2010 - 2019{" "}
+              2023 - Present
+            </div>
+            {/* JOB COMPANY */}
+            <div className="w-fit rounded bg-white p-1 text-sm font-semibold">
+              Freelance
             </div>
           </div>
           {/* CENTER */}

@@ -5,7 +5,7 @@ import { useRef } from "react";
 
 import Image from "next/image";
 import Link from "next/link";
-import ContactMe from "../../components/contactme";
+import ContactMe from "../../components/contactMe.jsx";
 
 const PortfolioPage = () => {
   const ref = useRef();
@@ -69,7 +69,7 @@ const PortfolioPage = () => {
                 className={`flex h-screen w-screen items-center justify-center bg-gradient-to-r ${item.color}`}
               >
                 <div className="flex flex-col gap-8 text-white">
-                  <h1 className="text-xl font-bold md:text-4xl lg:text-6xl xl:text-8xl">
+                  <h1 className="text-xl font-bold md:text-4xl lg:text-6xl xl:text-6xl">
                     {item.title}
                   </h1>
                   <div className="w-90 relative h-56 md:h-64 md:w-96 lg:h-[350px] lg:w-[500px] xl:h-[420px] xl:w-[650px]">

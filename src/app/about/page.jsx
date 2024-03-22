@@ -1,6 +1,6 @@
 "use client";
-import Brain from "@/components/Brain";
-import ExperienceList from "@/components/experienceList";
+import Brain from "../../components/brain.jsx";
+import ExperienceList from "../../components/experienceList.jsx";
 import { motion, useInView, useScroll } from "framer-motion";
 import { useRef } from "react";
 const AboutPage = () => {

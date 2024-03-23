@@ -46,11 +46,11 @@ const ContactPage = () => {
     >
       <div className="flex h-full flex-col px-4 sm:px-8 md:px-12 lg:flex-row lg:px-20 xl:px-48">
         {/* Text Container */}
-        <div className="flex h-1/2 items-center justify-center text-6xl lg:h-full lg:w-1/2">
+        <div className="flex h-1/6 items-center justify-center text-6xl lg:h-full lg:w-1/2">
           <div>
             {text.split("").map((letter, index) => (
               <motion.span
-                className="text-sm"
+                className="text-sm sm:text-5xl"
                 key={index}
                 initial={{ opacity: 1 }}
                 animate={{ opacity: 0 }}
@@ -69,7 +69,7 @@ const ContactPage = () => {
         <form
           onSubmit={sendEmail}
           ref={form}
-          className="flex h-1/2 flex-col justify-center gap-8 rounded-xl bg-red-50 p-24 text-xl lg:h-full lg:w-1/2"
+          className="flex h-[90%] flex-col justify-center gap-8 rounded-xl bg-red-50 p-24 text-xl lg:h-full lg:w-1/2"
         >
           <span>Dear João,</span>
           <textarea

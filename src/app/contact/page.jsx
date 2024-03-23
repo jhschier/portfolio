@@ -69,7 +69,7 @@ const ContactPage = () => {
         <form
           onSubmit={sendEmail}
           ref={form}
-          className="flex h-[90%] flex-col justify-center gap-8 rounded-xl bg-red-50 p-24 text-xl lg:h-full lg:w-1/2"
+          className=" m-2 flex h-[90%] flex-col justify-center gap-8 rounded-xl bg-red-50 p-2 text-xl sm:p-10 lg:h-full lg:w-1/2"
         >
           <span>Dear João,</span>
           <textarea

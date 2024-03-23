@@ -29,10 +29,16 @@ const ContactPage = () => {
       .then(
         () => {
           setSuccess(true);
+          setTimeout(() => {
+            setSuccess(false);
+          }, 2000);
           form.current.reset;
         },
         () => {
           setError(true);
+          setTimeout(() => {
+            setError(false);
+          }, 2000);
         },
       );
   };
@@ -69,18 +75,20 @@ const ContactPage = () => {
         <form
           onSubmit={sendEmail}
           ref={form}
-          className=" m-2 flex h-[90%] flex-col justify-center gap-8 rounded-xl bg-red-50 p-2 text-xl sm:p-10 lg:h-full lg:w-1/2"
+          className=" flex h-[100%] flex-col justify-center gap-6 overflow-scroll rounded-xl bg-red-50 p-2 text-xl sm:p-10 lg:h-full lg:w-1/2"
         >
           <span>Dear João,</span>
           <textarea
             rows="6"
-            className="resize-none border-b-2 border-b-black bg-transparent outline-none"
+            required
+            className="resize-none border-b-2 border-b-black bg-transparent pb-6 outline-none"
             name="user_message"
           />
           <span>My mail address is:</span>
           <input
             name="user_email"
             type="text"
+            required
             className="border-b-2 border-b-black bg-transparent outline-none"
           />
           <span>Best regards</span>

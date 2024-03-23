@@ -4,7 +4,11 @@ import { useRef } from "react";
 const ExperienceList = () => {
   const experienceRef = useRef();
 
-  const isExperienceRefInView = useInView(experienceRef, { margin: "-100px" });
+  const isExperienceRefInView = useInView(
+    experienceRef,
+    { margin: "-100px" },
+    { once: true },
+  );
 
   return (
     <div
@@ -24,7 +28,7 @@ const ExperienceList = () => {
       <motion.div
         initial={{ x: "-300px" }}
         animate={isExperienceRefInView ? { x: "0" } : {}}
-        className="w-screen sm:w-1/2 "
+        className="w-screen pr-10 sm:w-1/2 sm:p-0 "
       >
         {/* EXPERIENCE LIST ITEM */}
         <div className="flex h-48 justify-between">

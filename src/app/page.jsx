@@ -11,7 +11,7 @@ const Homepage = () => {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div className="flex h-full flex-col px-4 sm:px-8 md:px-12 lg:flex-row lg:px-20 xl:px-48">
+      <div className="flex h-full flex-col overflow-scroll px-4 sm:h-full sm:px-8 md:px-12 lg:flex-row lg:px-20 xl:px-48">
         {/* Image Container */}
         <div className="relative h-1/2 lg:h-full lg:w-1/2 ">
           <Image
@@ -37,7 +37,7 @@ const Homepage = () => {
             commitment to excellence.
           </p>
           {/* BUTTONS */}
-          <div className="flex w-full justify-center gap-4 sm:w-1/2">
+          <div className="flex w-full justify-center gap-4 pb-5 sm:mb-0 sm:w-1/2">
             <Link
               href={"/portfolio"}
               className="rounded-lg bg-black p-4 text-white ring-1 ring-black "

@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My Portfolio
 
-## Getting Started
+Welcome to my portfolio! This project showcases my skills, experiences, and projects in the field of [Your Field/Expertise]. Built with Next.js, TailwindCSS, and Framer Motion, this portfolio not only demonstrates my technical abilities but also presents a visually appealing and interactive experience for visitors.
 
-First, run the development server:
+## Technologies Used
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Next.js](https://nextjs.org/): React framework for building server-rendered and static websites.
+- [TailwindCSS](https://tailwindcss.com/): A utility-first CSS framework for rapidly building custom designs.
+- [Framer Motion](https://www.framer.com/motion/): A React library to power animations and interactive UIs.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Responsive Design**: The portfolio is designed to be fully responsive, ensuring optimal viewing experience across various devices.
+- **Interactive UI**: Leveraging Framer Motion, the UI elements are animated and interactive, providing an engaging user experience.
+- **Project Showcase**: Highlighting my notable projects with descriptions, images, and links to the live demos or source code repositories.
+- **About Me Section**: A brief introduction about myself, my skills, and my experiences.
+- **Contact Information**: Providing ways for visitors to get in touch with me, such as through email or social media links.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Deploy
 
-## Learn More
+The portfolio is deployed and can be accessed [here](https://portfolio-sable-two-97.vercel.app).
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
+This project is licensed under the [MIT License](LICENSE).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Author
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[João Schier](https://portfolio-sable-two-97.vercel.app)

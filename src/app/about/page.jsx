@@ -21,9 +21,9 @@ const AboutPage = () => {
       transition={{ duration: 1 }}
     >
       {/* Container */}
-      <div className="h-full overflow-scroll lg:flex" ref={containerRef}>
+      <div className="h-full overflow-scroll pl-1 lg:flex" ref={containerRef}>
         {/* Text Container */}
-        <div className="lg:xl:1/2 flex w-2/3 flex-col gap-24 sm:p-8 md:gap-32 md:p-12 lg:w-2/3 lg:gap-48 lg:p-20 lg:pr-0 xl:gap-64 xl:p-48">
+        <div className="lg:xl:1/2 flex w-2/3 flex-col gap-24 p-5 sm:p-8 md:gap-32 md:p-12 lg:w-2/3 lg:gap-48 lg:p-20 lg:pr-0 xl:gap-64 xl:p-48">
           {/* Biography Container */}
           <div className="flex flex-col justify-center gap-12">
             {/* Biography title */}
@@ -167,7 +167,7 @@ const AboutPage = () => {
             <motion.div
               initial={{ x: "-300px" }}
               animate={isSkillRefInView ? { x: 0 } : {}}
-              className="flex flex-wrap gap-4"
+              className="flex flex-wrap gap-4 pl-5"
             >
               <div className="cursor-pointer rounded bg-black p-2 text-sm text-white hover:bg-white hover:text-black">
                 JavaScript

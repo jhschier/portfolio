@@ -5,7 +5,7 @@ import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 const ContactPage = () => {
-  const text = "Contact Me";
+  const text = "Contact Me! :)";
 
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState(false);
@@ -50,6 +50,7 @@ const ContactPage = () => {
           <div>
             {text.split("").map((letter, index) => (
               <motion.span
+                className="text-sm"
                 key={index}
                 initial={{ opacity: 1 }}
                 animate={{ opacity: 0 }}
@@ -62,7 +63,6 @@ const ContactPage = () => {
                 {letter}
               </motion.span>
             ))}
-            {" :)"}
           </div>
         </div>
         {/* Form Container */}

@@ -18,14 +18,14 @@ const Homepage = () => {
             src="/port.svg"
             alt=""
             fill
-            className="max-w-[90%] object-contain"
+            className=" max-w-[100%] object-contain sm:max-w-[90%]"
           />
         </div>
 
         {/* Text Container */}
-        <div className="mt-20 flex h-1/2 flex-col items-center justify-center gap-8 lg:h-full lg:w-1/2 ">
+        <div className="mt-20 flex h-1/2 flex-col items-center justify-center gap-8 lg:h-full lg:w-1/2">
           {/* TITLE */}
-          <h1 className="text-center text-4xl font-bold md:text-6xl">
+          <h1 className="text-center text-4xl font-bold md:text-6xl ">
             Crafting Digital Experiences, Designing the tomorrow.
           </h1>
 
@@ -37,7 +37,7 @@ const Homepage = () => {
             commitment to excellence.
           </p>
           {/* BUTTONS */}
-          <div className="flex w-full justify-center gap-4">
+          <div className="flex w-full justify-center gap-4 sm:w-1/2">
             <Link
               href={"/portfolio"}
               className="rounded-lg bg-black p-4 text-white ring-1 ring-black "

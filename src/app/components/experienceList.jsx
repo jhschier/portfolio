@@ -24,7 +24,7 @@ const ExperienceList = () => {
       <motion.div
         initial={{ x: "-300px" }}
         animate={isExperienceRefInView ? { x: "0" } : {}}
-        className=""
+        className="w-screen sm:w-1/2 "
       >
         {/* EXPERIENCE LIST ITEM */}
         <div className="flex h-48 justify-between">
